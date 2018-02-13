@@ -86,5 +86,5 @@ SCRIPT5="methylQA-density.sh"
 $EXEC_BIN/methylQA medip $ARTIFACTS_DIR/$CPG_BED $ARTIFACTS_DIR/$SIZE_FILE $UUID.bam
 EOM
 
-sbatch $SCRIPT1
+echo "sbatch $SCRIPT1"
 
